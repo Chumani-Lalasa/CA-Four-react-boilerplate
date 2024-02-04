@@ -1,0 +1,128 @@
+body{
+    color: black;
+    background-color: white;
+    color: white;
+}
+.page-container{
+    padding: 70px;
+}
+.container{
+    height: 50%px;
+    background-color: #7209B7;
+    border-left: 7px solid #bdb2ff;
+    margin-top: -50px;
+}
+.top-section{
+    display: flex;
+    justify-content: flex-start;
+    gap: 130px;
+    height: 50vh;
+}
+.Question-section{
+    margin-left: 600px;
+}
+
+.Question{
+    position:absolute;
+    width: 900px;
+    margin-top: 130px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+.bottom-section{
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+}
+.option-section{
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    grid-template-rows: repeat(2,100px);
+    justify-content: space-evenly;
+    position: relative;
+    right: 70px;
+    width: 1450px;
+}
+.button-section{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.option-button input{
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.button button{
+    height: 50px;
+    width: 170px;
+    padding: 12px 12px 12px 12px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
+
+.highlight-btn, .remove-btn{
+    padding: 10px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #F15BB5;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 25px;
+}
+.option-button{
+    position: relative;
+    right: 30px;
+}
+/* background color for options */
+.option1{
+    background-color: #19F62F;
+}
+.option2{
+    background-color: #F80A0A;
+}
+.option3{
+    background-color: #FFD705;
+}
+.option4{
+    background-color: #00BBF9;
+}
+.logo{
+    position: relative;
+    bottom: 60px;
+    width: fit-content;
+}
+.mode{
+    display: flex;
+    justify-content: space-between;
+}
+.switchMode{
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 45px;
+    background-color: #FFD705;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border-style: none;
+}
+.QuestionBoxComponent{
+    height: 100vh;
+}

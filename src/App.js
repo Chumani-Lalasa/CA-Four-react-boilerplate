@@ -6,11 +6,13 @@ import QuestionBox from "./components/QuestionBox";
 
 
 
+
 function App() {
 
   return (
     <div>
-      
+      <QuestionBox data={questions}/>
+      {/* <Result /> */}
     </div>
   );
 }
