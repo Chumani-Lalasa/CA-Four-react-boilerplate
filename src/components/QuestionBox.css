@@ -10,7 +10,7 @@ body{
     height: 50%px;
     background-color: #7209B7;
     border-left: 7px solid #bdb2ff;
-    margin-top: -50px;
+    margin-top: -70px;
 }
 .top-section{
     display: flex;
@@ -124,5 +124,5 @@ body{
     border-style: none;
 }
 .QuestionBoxComponent{
-    height: 100vh;
+    height: 99vh;
 }
